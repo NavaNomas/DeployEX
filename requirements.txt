@@ -1,5 +1,5 @@
 # Bibliotecas principales
-numpy
+numpy==1.24.3
 GDAL==3.4.3
 rasterio==1.3.8
 geopandas==0.13.2
