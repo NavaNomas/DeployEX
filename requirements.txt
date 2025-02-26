@@ -18,5 +18,4 @@ pyproj==3.5.0
 earthpy==0.9.4
 
 # Soporte para GDAL (asegurar compatibilidad con el sistema)
-pygdal==3.4.3
 GDAL==3.6.2
