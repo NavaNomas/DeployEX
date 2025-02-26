@@ -14,6 +14,9 @@ Original file is located at
 # !pip install earthpy
 
 import os
+os.environ["CPLUS_INCLUDE_PATH"] = "/usr/include/gdal"
+os.environ["C_INCLUDE_PATH"] = "/usr/include/gdal"
+
 import rasterio
 import rasterio.plot
 import matplotlib.pyplot as plt
