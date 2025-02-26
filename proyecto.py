@@ -245,8 +245,10 @@ df.head()
 
 df.to_csv("mi_archivo.csv", index=False)  # Guarda sin la columna de índices
 
-from google.colab import files
-files.download("mi_archivo.csv")  # Descarga el archivo
+import streamlit as st
+# Descargar el archivo en Streamlit
+with open("mi_archivo.csv", "rb") as file:
+    st.download_button(label="📥 Descargar CSV", data=file, file_name="mi_archivo.csv", mime="text/csv")
 
 df.info()
 
