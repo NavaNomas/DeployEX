@@ -18,4 +18,3 @@ pyproj==3.6.0
 
 #faltaba, 
 scikit-learn==1.3.2
-google-colab==1.0.0
