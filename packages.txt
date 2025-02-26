@@ -1,4 +1,4 @@
-libgdal-dev
 gdal-bin
+libgdal-dev
 proj-bin
 proj-data
