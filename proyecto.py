@@ -113,7 +113,7 @@ import seaborn as sns
 import scipy as sp
 import pandas as pd
 
-df= pd.read_csv("resumen_variables.csv", encoding="latin-1", sep=";")
+df= pd.read_csv("resumen_variables.csv", encoding="latin-1")
 
 # Estadística descriptiva
 df.info()
